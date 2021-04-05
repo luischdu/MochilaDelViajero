@@ -1,0 +1,37 @@
+Comencemos... ¿Qué es una computadora?
+Es un dispositivo electrónico capaz de recibir instrucciones y ejecutarlas.
+	
+	Introducción a la historia de la Informatica:
+
+1122 a.C. ->China-> ábaco.
+1642 d.C. ->Blaise Pascal-> Primer calculadora Pascalina.
+1801 d.C. ->Joseph Jacquard -> Tarjetas perforadas.
+1833-1842 -> Charles Babbage -> Primera computadora & Ada Lovelace - primer algoritmo.
+1936      -> Alan Turing -> Máquina de Turing.
+1943      -> "las chicas del refrigerador" -> la ENIAC, una de las primeras computadoras.
+1945      -> Von Newman ->  arquitectura que establece las pautas de cómo armar una computadora - optimizar sus recursos.
+40's      -> Primera generación.
+60's      -> Transistor - chip.
+70's      -> Microchip.
+80's      -> OS - Windows, Apple, Linux
+2011      -> IBM: era cognitiva, computadora cuántica.
+
+En el futuro no tan lejano un IA más avanzado.
+
+Hardware 
+	Entrada
+	Salida
+	Internos
+Software 	
+	Sistemas
+	Programación	
+	Aplicación
+Servidores
+	Web
+	Bases de datos
+	Archivos
+Interfaces de Usuario (UI)
+	Interfaz de linea de comandos (CLI)
+	Interfaz grafica de usuario (GUI)
+	Interfaz nativa de usuario (NUI)
+

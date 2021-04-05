@@ -1,0 +1,9 @@
+-Creando mi primer repositorio
+Comando importantes:
+        git init // crea el repositorio
+        git config user.name "nombre de usuario" // agrega nuestra identidad
+        git config user.email "nombreUsuario@email.com"  // agrega nuestro email
+        git remote add origin https://github.com/DH/RepoRemoto // apunta al repositorio remoto
+      git add . // agrega todos los archivos
+      git status // seguimiento del estado de los archivos
+     git commit -m "mensaje" // comitea los cambios hechos

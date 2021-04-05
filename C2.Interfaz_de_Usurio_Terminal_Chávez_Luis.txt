@@ -1,0 +1,30 @@
+Terminal ¿Qué podemos hacer con la terminal?
+Comandos: Instrucciones codificadas interpretadas por Sistemas Operativos.
+
+La entrada estándar (stdin) se refiere al archivo por el que una orden recibe su entrada (por defecto, es el teclado).
+1
+
+La salida estándar (stdout) se refiere al archivo por el que una orden presenta sus resultados (por defecto, es la pantalla o más concretamente la ventana en la que se está ejecutando el intérprete de órdenes).
+
+El error estándar (stderr) se refiere al archivo por el que una orden presenta los mensajes que va generando cuando ocurre un error (por defecto, también es la pantalla).
+
+Crear o eliminar carpetas
+	mkdir / Crear un carpeta (make directory).
+	
+	rmdir / Borrar un carpeta (remove directory)
+Del tipo informativo
+	pwd / Mostrar el nombre de la carpeta en el que 		uno se encuentra situado (print working 		directory).
+	
+	Cd / Cambiar la carpeta de trabajo: Con este 			comando nos podemos mover entre diferentes 			directorios. Si queremos ir a un directorio en 	particular.
+
+	Ls / Listar el contenido de directorios (list): 		Este comando lista los ficheros y carpetas.
+Crear o eliminar archivos
+	gedit / Crear y editar archivos de texto.
+
+	rm / Borrar archivos.
+Copiar archivos y directorios
+	cp / Copiar un archivo o carpeta en el directorio 	especificado (copy)
+
+	cp -r / Copiar carpetas
+
+	Lmv / Mover un archivo o carpeta a un archivo o 	carpeta (move)
