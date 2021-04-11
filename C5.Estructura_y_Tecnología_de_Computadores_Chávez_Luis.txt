@@ -1,0 +1,30 @@
+The big picture
+
+La información viaja como pulsos electricos -> y se codifica en codigo binario.
+
+* Componentes de una Computadora:
+	- Placa madre: donde todos los dispositivos se conectan.
+	- Procesador o CPU: CPU (Unidad central de proceso): "" - El cerebro de la compu.
+	- Disco rigido: ALmacena infor de manera permanente que la compu no necesita inmediatemente. Ej: vid, documents, etc.
+	- Memoria RAM:Almacena la info de manera temporal.
+	- Memoria ROM:Almacena la info de manera permanente. Guarda lo relacionado al arranque de la maquina y funcionamiento basico.
+	- Tarjeta de sonido:Reproduce sonidos o recibe sonidos.
+	- Tarjeta de video:Muestra imagenes en el monitor.
+
+---- Dispositovos peroféricos: Son aquellos quese conectan a la CPU para añadir funciones o operaciones a la compu. Pueden ser de entrada, salda, mixtos, almacenamiento o comunicación.
+
+--Arquitectura de Von Neumann--
+Procesador necesita comunicarse con otros elementos. Lee datos e instrucciones de la RAM, requiere información desde perifericos de entrada y se comunica con perisfericos de salida.
+*** Zócalo: para fijar y conectar el procesador sin soldarlo a la placa madre.
+-Frecuencia: número de cambios que se realiza en un determinado segundo.
+	> IPC -> instrucciones por ciclo.
+- Nucleos:Número de tareas que puede realizar al mismo tiempo.
+- Subprocesos o hilos:flujo de control de 
+- Memoria cache: memoria más rapida y se utiliza para acelerar el acceso a nuestro procesador.
+
+
+Bus: Fluye la comunicación de distintos componentes, compuestas de Au y Cu.
+	-Varios tipos, no solo datos.
+	-¿Quién los maneja? //Los administra el Puente sur - Flujo de datos.
+
+
