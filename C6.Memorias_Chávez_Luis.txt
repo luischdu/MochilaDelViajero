@@ -1,0 +1,39 @@
+Memoria: Capacidad de almacenar la información.
+	Memoria primaria (MP): Prioriza la velocidad ante el almacenamiento.
+	Memoria secundaria: Prioriza el amacenamiento que la velocidad.
+
+ - "le falta RAM (MP): Region electrica -IMPORTANTE -> información volatil.
+		Envia datos por los buses- SDRAM->
+	CACHÉ-> Más veloz sin almacenamiento. Memoria intermedia de uso frecuente.
+	niveles
+		l1
+		l2
+		l3
+		l4
+	Cada nievel es más grande que el anterior. -> La caché es demasiado costosas.
+
+Tipos:
+	- Magnética:
+		HDD
+	- Óptica:
+		DV
+		CD
+		Blu-ray
+	- Estado sólido:
+		Pendrive
+		SSD
+			
+
++CARACTERÍSTICAS DE LAS MEMORIAS RAM+
+	>Velocidad: Las computadoras electrónicas digitales no tenían sistema operativo. Los programas, por lo regular, manejaban un bit a la vez, en columnas de switchs mecánicos. Los programas de lenguaje máquina manejaban tarjetas perforadas.
+	>Capacidad: Es la cantidad de datos que se pueden almacenar en una RAM. La capacidad se mide en gigabytes (GB).
+	>Latencia: Es la cantidad de ciclos de reloj que transcurren entre una petición y su respuesta.
+	>Voltaje: El voltaje hace referencia a la energía consumida por el módulo de RAM.
+
+----
+	Resgistro de la CPU: es una memoria de muy alta velocidad, que se utiliza para accder a información importante de manera rapida--tiene 5 registros:
+	1.PC: Program counter
+	2.IR: Instruction register
+	3.MAR: Memory address register
+	4.MDR: Memory data register
+	5.Accumulator
