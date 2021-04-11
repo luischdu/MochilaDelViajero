@@ -1,0 +1,105 @@
+**************************
+Sistemas operativos
+**************************
+Es el soporte lógico que controla el funcionamiento del equipo físico.
+
+Funciones:
+-es un software de comunicación user-gadget
+-Controla el hardware
+-Administra dispositivos, recursos y procesos
+
+---Servidores---
+	UNIX
+	RedHat
+	Windows-Server
+	Debian
+	Solaris
+		CLASIFICACIÓN
+Usuario:
+	- multiusuarios-(servers)
+		*Windows (a partir de XP)
+		*Unix
+		*Linux 
+		*Mac OSX
+	- monousuarios-(Personal)
+		*Windows (hasta Me)
+		*DOS
+Gestión de taresas:
+	- multitarea - varias tareas- 
+		*Windows
+		*Unix
+		*Linux
+		*Mac OSX
+	- monotarea - una sola tarea- (windowsMe-WindowsVista)
+		*DOS
+Estructura interna: Capas
+	- monolica: un programa:rutinas relacionadas entre sí.
+		*VMS
+		*Linux
+		*Multics
+		*Windows (hasta Me)
+	- E. jerárquica: capanas o anillos distribuidos.
+		*Unix
+		*Multics
+	- Máquina virtual: varias maquinas (experiencia)
+		*Microsoft Hyper-V
+		*VMware
+		*VirtualBox
+		*QEMU
+		*Kernel-Based Virtual machine
+	- Cliente-servidor
+Gestión de recursos:
+	- centralizados (recusos de un solo ordenador)
+		*Windows
+		*Linux
+		*Mac OSX
+		*Unix
+	- distribuido (procesos de un ordenador al mismo tiempo)
+		*Novell Netware
+		*Windows Server
+		*Cisco IOS
+		*Unix
+		*Linux
+
+-----OS según licencias-----
+	
+	*Open source: A voluntad del usuario
+		RedHat
+		Ubuntu
+	*Propietary software: Limitaciones del propietario
+		Windows
+
+
+***Generación de computadoras***
+- Generación Cero (década de 1940)
+- Primera generación (1945–1955): Tubos de vacío y tableros enchufables
+La segunda generación (1955–1965): Transistores y sistemas de lote
+- Tercera generación (1965–1970):Circuitos integrados ( CI ) y multiprogramación
+- Cuarta generación (1980– a nuestros días): Compus personales
+
+
+------------cerebro del OS ---KERNEL-------------
+-Esta alojado dentro el sistema operativo
+
+Interactua
+	- Asigna y prioriza recursos.
+	- Asigna necesidades del OS
+¿Cómo?
+	Mediante las: "Llamadas del sistema-- como un programa solicita una acción"
+		* gestión - de control:supervisa el inicio, creación, detención y finalización de procesos.
+			  -  de archivos:Incluye cración, eliminación, apertura, cierre, escritura y lectura de archivos.
+			  - de dispositivos:admin recusrsos disponibles, como ser almacenados.
+			  - de información: asegura la puntualidad e integridad de la información.
+		* comunicación entre procesos:coordina interacción entre procesos y aplciaciones.
+
+
+Clasificación kernel:
+--- Monolitico: Drivers:IPC, sistema de archivos:Planificación memoria virtual. 
+--- MicroKernel: Aplicaciones basicas de administración: un poco lento-pasos de mensaje.
+*variantes*
+--- kernel hibrido: es un microkernel con más codigo: agiliza la velocidad: compatible con varios dispositivos.
+--- nanokernel: es más reducido el codigo que en el microkernel-más facil de crear: todos se comunican con paso de mensajes: facil modificación OS.
+
+
+
+
