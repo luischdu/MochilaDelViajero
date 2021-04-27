@@ -1,0 +1,56 @@
+*** Lenguajes***
+****************
+
+Algorigmos: Serie de pasos.
+Lenguajes formales son los llamados leguajes de programación.
+- Tipos
+	Especificos: Problemas puntuales
+	Generales: Infinidad de operaciones
+- De alto nivel: Parecidos al lenguaje coloquial
+- De bajo nivel: (Parecido a 0 1) Instrucciones especificas y maximo de recursos
+
+---> Los lenguajes son herramientas <---
+*Tipado debil -> no se indica el tipo de variable. 
+	+ Más rapido de desarrollar
+	- se puden cometer varios errores.
+* Tipado fuerte: Se necesita indicar el tipo de dato de la variable.
+	+ es código más expresivo se cometen menos errores.
+	- son más estrictos a la hora de programar y hay que escribir mucho más codigo.
+* Tipado estatico: la comprobación de tipificación se realiza durante la compilación y no durante la ejecución.
+	+ Permite detección de errores antes de la ejecución y genera eficiencia - seguridad.
+* Tipado dinamico: La tipificaión se realiza durante la ejecución.
+	+ más flexible.
+	- más lento de ejecución y propenso a comenter errores.
+
+--- Frameworks - Marco de trabajo
+	Es una estructura o esqueleto para el desarrollo de proyectos.
+	Es como una plantilla,
+		+ simplifica la elaboración de una tarea.
+	Ejemplos: Vue,js, React, Angular, django, etc.
+
+
+---- Paradigmas de programación----
+Forma de pensar bajo modelo preseleccionado.
+
+->Programación imperactiva: Indica que debe hacer y en que se cuencia.
+	* Estructurada: Se ejecutan linea tras linea. Estructura if-switch, bucles.
+	* Orientado a objetos: Utiliza objetos y la iteración entre ellos para resolver problemas.
+->Programación multiparadigma: lenguaje que usa más de un paradigma.
+-> Prgramación declarativa: Describe el resultado final de lo que se busca
+	*Programación logica: basa en la lógica matematica.
+	* Programación funcional: basado en el concepto matematico y principio de función.
+-> Programación con lenguaje especifico de dominios: Engloba a los lenguales para resolver problemas especificos.
+---- Del codigo a la ejecución---
+Traducción - es la compilación 
+El código maquima 
+
+1) Maquina virtuales: VM-> código fuente compilado a código maquina
+	
+2)Intérprete_: Analisis linea por linea
+
+Esto hace que un codigo sea independiente de la arquitectura.
+
+La diferencia es el performance: compilación es más rapido que los lenguajes interpretados o VM. Pero estos ultimos son beneficiosos para desarrollar programas ya que no importa donde se escriba el codigo este prodra ser interpretado por diferenctes arquitectiras.
+
+
+
