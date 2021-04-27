@@ -1,0 +1,91 @@
+*********************
+** Procesos**********
+*********************
+
+Los procesos: Ejecución de un programa o instrucción.
+El SO organiza el orden para su ejecución.
+El cambio de procesos se llama cambio de contexto.
+
+Los procesos son efimeros 
+	Se crean de manera interactiva: Usuario
+	Se crean en segundo plano: Llamadas al sistema operativo.
+	
++++ Estados de un proceso:
+	*Nuevo
+	*Listo
+	*Ejecución 
+	*Bloqueado
+	*Salida
+ Comunicacion entre procesos
+		(IPC) ->Señales. 
+		(Memoria compartida) Recurso para intercambiar información.
+		+Más economica
+
+-> Cuando se crean llamadas al sistema se crean procesos hijo.
+
+---------------------------------------
+----- Como se comunican los procesos---
+---------------------------------------
+
+*Procesos independientes -->Autonomia no son afectados ni afectan a otros
+*Procesos cooperativos: Puede afectar y ser afectado por otros procesos
+	+ Al ser compartdio la CPU trabaja eficiente y veloz
+		>>Paso a la modularidad: Independiente y sumultanea.
+
+	<< Puede traer problemas cuando ejecuta una tarea de forma erronea>>
+
+---------------------------------------
+---- sincronización de procesos -------
+---------------------------------------
+
+Sincronización por una herramienta -> Semaforo.
+	Inanición: Forma deficiente al negar recursos
+
+--- Tecnicas de planificacion
+	>FIFO (First in, First out)
+
+	>SJF (Shortest Job First
+		Primero se procesa el de menor tiempo de ejecución
+
+	>SRTF (Shortest Remaining Time
+		Se interrumpe un proceso por otro que requiera menos tiempo.
+
+	>Round Robin -quantum de tiempo
+		Se ejecuta por quantum cada proceso por tiempo equitativo.
+
+	>Retroalimentació multinivel
+	> Planificación por comportamiento.
+
+---------------------------------------
+----------- Hilos----------------------
+---------------------------------------
+
+Un proceso se divide en secuencias de tareas llamadas Holas.
+	Se pueden ejecutar de forma simultanea y enc olaboración con otros subprocesos.
+
+	Multiples hilos exiten en un proceso de forma concurrente y compartiendo recursos.
+
+		X) Los procesos no comparten recursos.
+
+----------------------------------------
+--Criterios que se deben tener en cuenta a la hora de elegir o diseñar un algoritmo de planificación---
+----------------------------------------
+
+*Eficiencia: Se refiere a la utilización del recurso más caro en un sistema.
+*Tiempo de ejecución: Es el tiempo teórico que necesitaría el proceso para ser ejecutado si fuera el único presente en el sistema.
+*Tiempo de espera: Es el tiempo que los procesos están activos, pero sin ser ejecutados, es decir, los tiempos de espera en las distintas colas.
+*Rendimiento: Es el número de trabajos o procesos realizados por unidad de tiempo, que debe ser lo mayor posible.
+*Tiempo de servicio: Es el tiempo que tarda en ejecutarse un proceso
+*Tiempo de respuesta: Es la velocidad con que el ordenador da la respuesta a una petición. 
+*Tiempo de procesador: Es el tiempo que un proceso está utilizando el procesador sin contar el tiempo que se encuentra bloqueado por operaciones de entrada/salida.
+
+
+
+
+
+
+
+
+
+
+
