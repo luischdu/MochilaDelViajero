@@ -1,0 +1,81 @@
+# Maquinas virtuales
+
+## Escritorios remotos
+Programas que me permiten acceder a computadoras ubicadas en otro lugar
+	* Debo contar con intener
+	* Ambas compus deben estar encendidas
+	* Misma aplicación remot
+ > Host
+ > Cliente (pueden ser varios)
+
+*Ventajas* Ahorro de recursos (mobilidad, mobiliario)
+
+Aplicaciones de escritorios remotos:
+1. TeamViewer
+2. AnyDesk
+3. Google remote desjtop
+4. Assist
+5. Windows Remote Desktop
+
+*Desventajas* Ciberataques, calidad del internet (dependencia).
+
+## Maquina virtual
+Programa que contiene un OS, tipos:
+
+1. Sistemas: Emula compu completas
+> Hipervisor : donde la maquina es creada y su funcion es asignar recursos fisicos
+	* Tipo 1: Rapido y seguro - Corre sobre la parte fisica de la compu
+	* Tipo 2: Corre sobre el OS
+2. Procesos: No emula la compu, solo el proceso concreto
+> Util al momento de desarrollar software
+
+**Ventajas**
+- [x] Probar otros OS
+- [x] Ejecutar programas antiguos
+- [x] Probar app de otros OS
+- [x] Entornos de seguridad
+- [x] Mejora el aprovechamiento del hardware (servidores)
+- [x] Virtualización de redes.
+**Desventajas**
+- [ ] Menos eficientes
+- [ ] Rendimiento puede verse afectado
+
+## Contenedores
+
+Podemos agregar productos y herramientas para ejecutarlo y esto se empaqueta en un contenedor.
+
+*Son más rapidos ya que no requieren un Hipervisor
+*Trabaja en capas
+> Para su implementación 
+	* Una imagen
+	* Ducker buil
+	* Docker publish
+	* Docker pull
+	* Docker run
+### Orquestadores
+Es una herramienta que automatiza el:
+1. Despliegue
+2. Escalamiento
+3. Administración
+4. COmunicación
+5. Disponibilidad del software
+
+##### Caracteristicas 
+1. **Autoreparación** recupera los contenerdores que fallan
+2. **Retroceso automatización** 
+3. **Autoescalado** recursos consumidos
+4. **Balance de carga** distribución de usuarios 
+> Se deben implementar en conjunto el *contenerdor* y el *orquestador*
+
+*Ejemplos*
+* Kubernetes
+* Docker Swarm
+* Mesophere DC/OS
+* HasiCorp Nomad
+* Amazon ECS
+* Amazon EKS
+* GKE
+
+### Actividad en clase:
+
+<img align="center" src="https://github.com/luischdu/MochilaDelViajero/blob/main/C11.Clasificaci%C3%B3n%20de%20contenedores%20mas%20utilizados%20-%20C5E4.png" width=50%/>
